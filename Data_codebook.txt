@@ -1,0 +1,33 @@
+Description variables in the data:
+
+- id: id number of the Tweet (unique for each Tweet)
+- Coder.ID: id number of the coder (1, 2, 3, 4)
+- information category: the information category of the Tweet (accurate information, misinformation, suggestive misinformation, uncheckable claim, other, unable to classify)
+- Attribution: does the Tweet contain a misinformation attribution, binary (yes, no)
+- Att_D_pol: the Tweet contains a misinformation attribution to a Dutch politician (NA = no, A Dutch politician (not seated in the Dutch cabinet) = yes)
+- Att_D_gov: the Tweet contains a misinformation attribution to a member of the Dutch government (NA=no, The Dutch government, cabinet, a member of the Dutch cabinet, or a civil servant = yes)
+- Att_mainme: the Tweets contains a misinformation attribution to mainstream media (NA=no, A mainstream media outlet or journalist working in the mainstream media = yes)
+- Att_altme: the Tweet contains a misinformation attribution to alternative media (NA=no, An alternative media outlet or journalist working in alternative media = yes)
+- Att_ind: the Tweet contains a misinformation attribution to an opinion leader or other individual not connected to a specific organization (NA=no, An opinion leader or individual who is not a journalist, and not part of a government, parliament, or political party = yes)   
+- Att_other: the Tweet contains a misinformation attribution to a person or organization who falls outside of these categories (NA=no, Other actor = yes)
+- Att_no: the Tweet contains a misinformation attribution, but it is not attributed to a specific actor (NA=no (no misinformation attribution or the attribution is attributed to a specific actor), Misinformation is not attributed to an actor=yes)
+- Sentiment: the sentiment/valence of the Tweet (negativity, positivity, neutrality)
+- Authority_ref: authority references in the Tweet (the Tweet does not contain an authority reference, the Tweet contains a specific authority reference, or the Tweet contains a non-specific authority reference)
+- Incivility: the Tweet contains incivility (yes, no)
+- Emotional: the Tweet contains emotional language (yes, no)
+- Fearmongering: the Tweet contains fearmongering (yes, no)
+- Topics: the topic of the Tweet (Symptoms or characteristics of covid, existence of covid, the severity of covid, origin of covid, spread and detection, 'remedies for cure, treatment and prevention, vaccination', 'policies, prevention & societal and economic impact', 'news, information and misinformation', other
+- Conspiracy theories: the Tweet contains a conspiracy theory (yes, no)
+- Gov_pol_org: the Tweet contains a reference to a government, politician or international organization (NA=no, Government, politicians and international organizations=yes)
+- Health_serv: the Tweet contains a reference to health services (NA=no, Health services=yes)
+- Media: the Tweet contains a reference to the media (NA=no, Media=yes)
+- Other_nongov: the Tweet contains a reference to another major non-governmental actor (NA=no, Other major non-governmental actors=yes)
+- Ind_com: the Tweet contains a reference to an individual or community (NA=no, Individuals or communities=yes)
+- Other: the Tweet contains a reference to another actor (NA=no, Other=yes)
+- No: the Tweet does not contain any references to an actor (NA=no (there are references to an actor), none=yes (there are no references))
+- Scient: the Tweet contains references to a university or scientific organization (NA=no, University or scientific organization=yes)
+- Misinfo_bin: the Tweet contains misinformation (Misinformation=yes (the misinformation and suggestive misinformation categories in the information_category variable), Other= no (the accurate information, other, uncheckable claim and unable to classify categories in the information_category variable))
+- label_mis: the Tweet contains misinformation (1=yes, 0=no)
+
+
+See the codebook of 'In search of truth' for a more extensive description of the variables and how they were coded. 
