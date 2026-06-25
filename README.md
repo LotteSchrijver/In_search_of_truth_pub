@@ -31,7 +31,7 @@ md5sum Final_labeled_data_reproducibility.csv
 
 The data contains the following columns: 
 
-`id`,`Coder.ID`,`Information_category`, `Attribution`, `Att_D_pol`, `Att_D_gov`, `Att_f_pol_gov`, `Att_mainme`, `Att_altme`, `Att_ind`, `Att_other`, `Att_no`, `Sentiment`, `Authority_ref`, `Incivility`, `Emotional`, `Fearmongering`, `Topics`, `Conspiracy`, `Gov_pol_org`, `Health_serv`, `Media`, `Other_nongov`, `Ind_com`, `Other`, `No`, `Scient`, `Misinfo_bin`, `label_mis`, `text`, `date` 
+`id`,`Coder.ID`,`Information_category`, `Attribution`, `Att_D_pol`, `Att_D_gov`, `Att_f_pol_gov`, `Att_mainme`, `Att_altme`, `Att_ind`, `Att_other`, `Att_no`, `Sentiment`, `Authority_ref`, `Incivility`, `Emotional`, `Fearmongering`, `Topics`, `Conspiracy`, `Gov_pol_org`, `Health_serv`, `Media`, `Other_nongov`, `Ind_com`, `Other`, `No`, `Scient`, `Misinfo_bin`, `label_mis`, `text`, `date`, 'year'
 
 (See Data_codebook.txt for an explanation of the variables)
 
@@ -39,4 +39,4 @@ The data contains the following columns:
 
 `bert_accuracy_repro.ipynb` is for evaluating the finetuned model. It can be run without `Final_labeled_data_reproducibility.csv`. As mentioned, the inference is slightly different from the original analysis. However, the main findings of the paper remain the same.
 
-We recommend running `Train_test_bert_repro.ipynb` multiple time to check the stochastistic stability.
+We recommend running `Train_test_bert_repro.ipynb` multiple times to check the stochastistic stability.
